@@ -4,13 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>  Esta es mi pagina web y le dare estilo </title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <style>
-        /* Estilo para imagens no corpo da página */
-        body img {
-            display: block;
-            margin: 0 auto; 
-            width: 35%; 
-        }
+       
     </style>
 </head>
 <body> 
@@ -20,7 +16,7 @@
 
     <!-- Cabeçalho com título e menu de navegação -->
     <header>
-        <h1>  Esta es mi pagina web y le dare estilo </h1>
+        <h1 class="title" id="title1">  Esta es mi pagina web y le dare estilo </h1>
         <p>Esta es mi pagina web y le dare estilo</p>
         
         <nav>
@@ -29,29 +25,40 @@
             <a href="#">Noticias</a>&nbsp;&nbsp;&nbsp;
             <a href="#">Soporte</a>
         </nav>
-        <hr>
+        
     </header>
 
     <main>
         <!-- Seção principal de notícias -->
         <section>
-            <!-- Título e conteúdo da notícia -->
-            <h2></h2>
-            <p></p>
-            <p></p>
+            <div class="contenedor">
+                <!-- Título e conteúdo da notícia -->
+                <h2 class="title">Primer Parrafo y Elementos 1</h2>
+                <img src="./image1.png" alt="imagen1" id="img">   
+            </div>
+                      
+        
+            
         </section>
 
         <!-- Outra seção de notícias -->
         <section>
-            <h2></h2>
-            <p></p>
+            <div class="contenedor">
+                <h2 class="title">Primer Parrafo y Elementos 2    </h2>
+                <img src="./image2.png" alt="imagen1" id="img"> 
+                
+            </div>
+            
         </section>
 
         <!-- Seção de outra notícia -->
         <section>
-            <h2></h2>
-            <p></p>
-            <p></p>
+            <div class="contenedor">
+                <h2 class="title">Primer Parrafo y Elementos 3 </h2>
+            <img src="./image3.png" alt="imagen1" id="img"> 
+            </div>
+         
+            
         </section>
 
         <!-- Outra seção para futuras informações -->
